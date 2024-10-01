@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <style>
+        .main
+        {
+            width: 40%;
+            background-color: brown;
+            float: left;
+
+        }
+        .left
+        {
+            width: 30%;
+            background-color: green;
+            float: left;
+        }
+        .right{
+            width: 30%;
+            background-color: hotpink;
+            float: left;     
+        }
+        @media screen and (max-width:700px) {
+            .left,.right,.main{width: 100%}
+             body{background-color: rgb(44, 206, 206);}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="left"> Left Content</div>
+    <div class="main">main Content</div>
+    <div class="right">right Content</div>
+</body>
+</html>
